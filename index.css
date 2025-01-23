@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-color: #dabebe; /* Light beige background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the header */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-list {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display list items in a row */
+    gap: 20px; /* Space between list items */
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-size: 18px; /* Font size for links */
+}
+
+.nav-list a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .main-header {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center text alignment */
+    }
+
+    .nav-list {
+        flex-direction: column; /* Stack list items vertically */
+        gap: 10px; /* Reduce space between list items */
+    }
+}
+.home {
+    background-color: #f0f0f0; /* Light grey background color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center text alignment */
+    
+}

@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #855b5b;
+    line-height: 1.6;
+}
+
+.main-header {
+    background-color: #dabebe; /* Light beige background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the header */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-list {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display list items in a row */
+    gap: 20px; /* Space between list items */
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-size: 18px; /* Font size for links */
+}
+
+.nav-list a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.about {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    text-overflow: ellipsis;/* Add ellipsis for overflow text */
+    white-space: pre-wrap;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.about-text a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+}
+
+.about-text a:hover {
+    text-decoration: underline;
+}
+.skills {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.skills-list img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.skills-list span {
+    font-size: 14px;
+    text-align: center;
+}
+
+.programming {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.programming-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.programming-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.programming-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.programming-list img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.programming-list span {
+    font-size: 14px;
+    text-align: center;
+}
+.education {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-list li {
+    margin-bottom: 10px;
+}
+
+.education-list .degree {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.education-list .institution {
+    font-size: 16px;
+    color: #555;
+}
+
+.education-list .year {
+    font-size: 14px;
+    color: #999;
+}
+.internship {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.internship-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.internship-list {
+    list-style: none;
+    padding: 0;
+}
+
+.internship-list li {
+    margin-bottom: 10px;
+}
+
+.internship-list .position {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.internship-list .company {
+    font-size: 16px;
+    color: #555;
+}
+
+.internship-list .duration {
+    font-size: 14px;
+    color: #999;
+}
+.back-to-home {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.back-to-home a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.back-to-home a:hover {
+    background-color: #7827c4;
+}
