@@ -6,14 +6,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e97777;
     color: #333;
     line-height: 1.6;
     padding: 20px;
 }
 
 header {
-    background-color: #dabebe; /* Light beige background color */
+    border-radius: 10px;
+    background-color: #e06262; /* Light beige background color */
     color: #fff; /* White text color */
     padding: 10px 20px; /* Padding around the header */
     display: flex; /* Use flexbox for layout */
@@ -91,7 +92,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #dabebe;
+    background-color: #df2727;
     color: #fff;
     border-radius: 5px;
 }

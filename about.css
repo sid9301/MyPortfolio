@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color:  #c56262;
     color: #855b5b;
     line-height: 1.6;
 }
 
 .main-header {
-    background-color: #dabebe; /* Light beige background color */
+    background-color: #fc6161; /* Light beige background color */
     color: #fff; /* White text color */
     padding: 10px 20px; /* Padding around the header */
     display: flex; /* Use flexbox for layout */

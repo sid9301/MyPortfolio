@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e09393;
     color: #333;
     line-height: 1.6;
 }
 
 .main-header {
-    background-color: #dabebe; /* Light beige background color */
+    background-color: #e26a6a; /* Light beige background color */
     color: #fff; /* White text color */
     padding: 10px 20px; /* Padding around the header */
     display: flex; /* Use flexbox for layout */
@@ -75,7 +75,7 @@ body {
 
 .back-to-home {
     padding: 20px;
-    background-color: #fff;
+    background-color: #dd6868;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
